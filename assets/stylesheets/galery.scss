@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+  //// GALERY
+
+  #fotos {
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 90px;
+  }
+
+  .titleFotos {
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $violeta;
+    margin-left: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    img {
+      width: 33%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  //// GALERY
+
+  #fotos {
+    padding-top: 50px;
+    width: 100%;
+    padding-bottom: 90px;
+  }
+
+  .titleFotos {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $violeta;
+    margin-left: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+}

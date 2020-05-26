@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+  .home {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .homeImage {
+    padding-top: 70px;
+    width: 50%;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    width: 50%;
+    color: $violeta;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeImage {
+    width: 100%;
+  }
+
+  .title {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+    color: $violeta;
+    font-weight: bold;
+  }
+}
