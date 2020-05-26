@@ -146,6 +146,10 @@
     .footer img {
       max-width: 200px; }
   .footerName {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 0.7em;
     color: #9575cd;
     text-transform: uppercase;
     text-decoration: none; } }
